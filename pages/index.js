@@ -17,3 +17,5 @@ export default function Home() {
     </div>
   );
 }
+
+// https://youtu.be/gyMwXuJrbJQ?t=67896

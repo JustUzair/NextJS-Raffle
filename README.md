@@ -1,6 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hardhat Smart Contract Raffle
 
-## Getting Started
+The transaction address is: 0x7b51405dfA8c34f6c2Da20903c82E7edE2aE25c1
+
+View on [goerli Etherscan](https://goerli.etherscan.io/address/0x7b51405dfA8c34f6c2Da20903c82E7edE2aE25c1#code)
+
+Link to FrontEnd Github Repo for this project : [Raffle](https://github.com/JustUzair/NextJS-Raffle)
+
+Link to Deployed Website : [Raffle | Decentralized Lottery](https://next-js-raffle.vercel.app/)
+
+# Smart Contract Raffle
+
+The working app can be viewed [here](https://next-js-raffle.vercel.app/).
+
+You can enter the raffle using a Goerli test net, or if you want you can spin a hardhat node locally and enter the raffle as well.
+
+![front end](./public/images/home.JPG)
+
+## My learnings
+
+I did this project while completing Patrick Collin's blockchain tutorial.
+
+This dApp has taught me a ton of things:
+
+1. How to get actual verifiable random numbers (using ChainLink VRF). This really helps us to choose a lottery winner without any form of bias
+
+2. How to use ChainLink keepers to automate smart contracts.
+
+3. How to write proper testing scripts.
+
+4. How to deploy the smart contract regardless of the network we are on.
+
+5. How to make an interactive web application and connect it to a smart contract.
+
+---
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). The styling has been done using Tailwind CSS.
+
+### Getting Started
 
 First, run the development server:
 
